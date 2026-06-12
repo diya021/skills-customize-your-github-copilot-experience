@@ -1,36 +1,28 @@
-# Assignments Instructions
+---
+description: "Instructions to use whenever creating or editing assignment markdown files to ensure consistency and clarity for students."
+applyTo: "assignments/**/*.md"
+---
 
-This file provides guidance for working with the assignment content in this repository.
+# Assignment Markdown Structure Guidelines
 
-## Purpose
+All assignment markdown files should follow these guidelines:
 
-The `assignments/` directory stores individual homework assignments and coding exercises. Each assignment is organized with a consistent structure so students can browse, read, and run starter code with minimal setup.
+## 1. Template Usage
 
-## Structure
+- Assignment markdown files must follow the structure in [`templates/assignment-template.md`](../../templates/assignment-template.md).
+- The assignment must be created as a `README.md` file
+- Do not remove or skip required sections from the template.
 
-Each assignment folder should contain:
-- `README.md` — assignment overview, tasks, and learning objectives
-- `starter-code.py` — starter code or scaffold for students to complete
-- any supporting data or assets required for the assignment
+## 2. Section Guidance
 
-## Authoring New Assignments
+The section headers should reflect the structure in the template, including the exact icon usage.
 
-When adding a new assignment:
-1. Create a new folder under `assignments/` with a descriptive name.
-2. Add a `README.md` with:
-   - a clear introduction
-   - step-by-step tasks
-   - helpful examples or hints
-3. Add a `starter-code.py` file with comments and starting logic.
-4. Keep file names and directories lowercase and hyphen-separated.
+- **Title**: Replace `[Assignment Title]` with a short, descriptive name (e.g., `Python Basics`, `Loops and Conditionals`, `Functions and Modules`).
+- **Objective**: Write 1-2 sentences summarizing what the student will learn or accomplish. Focus on the main skills or concepts.
+- **Tasks**: For each task:
+   - Use a specific, action-oriented task name
+   - In the Description, clearly state what the student must do.
+   - In Requirements, use bullet points to list the expected outcomes or features. Be specific and measurable
+   - Provide example input/output in code blocks if helpful.
 
-## Review Guidelines
-
-- Keep explanations student-friendly and easy to follow.
-- Use consistent formatting across assignment READMEs.
-- Verify that starter code runs and that any included data files are referenced correctly.
-- Avoid large binary files in assignment folders.
-
-## Notes
-
-This repository is meant to support learning through simple, clean examples. Focus on clarity and reproducibility when authoring assignment materials.
+Do not include extra sections unless explicitly specified.
