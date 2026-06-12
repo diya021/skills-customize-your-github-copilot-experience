@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "fastapi-sqlite",
+      "title": "Building APIs with FastAPI and SQLite",
+      "description": "Use FastAPI to create CRUD endpoints backed by an SQLite database.",
+      "path": "assignments/fastapi-sqlite",
+      "dueDate": "2026-07-29",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
